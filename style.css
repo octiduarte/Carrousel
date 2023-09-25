@@ -1,0 +1,18 @@
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
