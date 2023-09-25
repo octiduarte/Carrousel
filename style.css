@@ -1,18 +1,19 @@
-.carousel-container {
-    width: 80%;
-    margin: 0 auto;
-    overflow: hidden;
-    position: relative;
-}
-
-.carousel-list {
+.slider-container {
     display: flex;
-    list-style: none;
-    padding: 0;
-    transition: transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
-.carousel-item {
-    flex: 0 0 100%;
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+img {
     max-width: 100%;
+    height: auto;
 }
